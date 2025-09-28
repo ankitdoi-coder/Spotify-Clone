@@ -1,0 +1,41 @@
+
+/* Sticky Footer of the Website */
+footer {
+    position: fixed;
+    width: 100vw;
+    gap: 40vw;
+    margin: 3px;
+    background: #ba3cb6;
+    background: linear-gradient(90deg, rgba(186, 60, 182, 1) 22%, rgba(148, 159, 235, 1) 59%, rgba(122, 135, 158, 1) 85%);
+}
+
+footer div h5 {
+    margin: 0;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 750;
+}
+
+footer div p {
+    font-weight: 500;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+footer a button {
+    cursor: pointer;
+    margin-top: 2px;
+    height: 3rem;
+    width: 9rem;
+    align-items: center;
+    color: rgb(48, 39, 73);
+    background-color: white;
+    border-radius: 25px;
+    border: 0;
+    font-size: medium;
+    font-weight: 700;
+}

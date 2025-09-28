@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.margin{
+    margin: 5px;
+}
+.space-btw{
+    justify-content: space-between;
+}
+.border0{
+    border: 0;
+}
+.invert{
+    filter: invert(1);
+}
+.gap{
+    gap: 20px    ;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico">
+</head>
+
+<body>
+    <!-- Nav part -->
+    <nav class="nav-bar flex space-btw">
+        <div class="left-nav flex justify-center item-center ">
+            <img class="spotify-logo margin" src="img/logo.svg" alt="">
+            <a href=""><button class="home-btn border0 hover-effect" onclick=""><img class="home-logo"
+                        src="img/home.svg" alt=""></button></a>
+            <div class="search-bar flex  justify-center item-center">
+                <img class="search-logo margin " src="img/search.svg" alt="">
+                <form action="" class="margin ">
+                    <input class="search-form border0" type="text" placeholder="What do you want to play?">
+                </form>
+                <p class="margin saparator-fade"></p>
+                <a href=""><button class="browse-btn border0"><img src="img/browse.svg"
+                            class="browse-logo"></button></a>
+            </div>
+        </div>
+
+
+
+        <div class="first-right-nav flex item-center justify-center">
+            <a href="https://www.spotify.com/in-en/premium/"><button
+                    class="border0 premium-btn hover-effect">Premium</button></a>
+            <a href="https://support.spotify.com/in-en/"><button
+                    class="border0 support-btn hover-effect">Support</button></a>
+            <a href="https://www.spotify.com/in-en/download/windows/"><button
+                    class="border0 download-btn hover-effect">Download</button></a>
+            <p class="saparator-light margin"></p>
+        </div>
+
+        <div class="second-right-nav flex item-center justify-center">
+            <img class="download-logo" src="img/download.svg" alt="">
+            <a class="hover-effect" href="https://open.spotify.com/download "><button
+                    class="border0 install-btn hover-effect">Install App</button></a>
+            <a href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F"><button
+                    class="border0 sign-up-btn hover-effect">Sign-up</button></a>
+            <a href="https://accounts.spotify.com/en-GB/login?continue=https%3A%2F%2Fopen.spotify.com%2F"><button
+                    class="border0 login-btn ">Log In</button></a>
+        </div>
+    </nav>
+
+
+    <!--middle part -->
+    <div class="container flex">
+        <!-- Left Part -->
+        <div class="left">
+            <div class="library">
+                <div class="title-holder flex justify-center item-center">
+                    <p class="library-title">Your Library</p>
+                    <a href="" class="plus">
+                        <img src="img/plus.svg" alt=""></a>
+                </div>
+                <div class="song-list">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="left-footer ">
+                <ul>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="">Safety & Privacy center</a></li>
+                    <li><a href="">Privacy and Policy</a></li>
+                    <li><a href="">Cookies</a></li>
+                    <li><a href="">About Ads</a></li>
+                    <li><a href="">Accessibility</a></li>
+                </ul>
+                <a class="cookies" href="">
+                    <p>Cookies </p>
+                </a>
+                <div class="flex lang-box justify-center item-center">
+                    <img class="lang-logo" src="img/lang.svg" alt="">
+                    <a href="">
+                        <p>English</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right part -->
+        <div class="right">
+            <section class="spotify-playlist">
+                <div class="trend-top flex">
+                    <h2>Trending songs</h2>
+                    <a href="">
+                        <p>Show all</p>
+                    </a>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <button class="circle-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606" />
+                            </svg>
+                        </button>
+
+                        <img src="img/first-song.jpeg" alt="">
+                        <h4>I Really Do...</h4>
+                        <p>Karan Aujla, Ikky</p>
+                    </div>
+                    <div class="card">
+                        <button class="circle-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606" />
+                            </svg>
+                        </button>
+
+                        <img src="img/first-song.jpeg" alt="">
+                        <h4>I Really Do...</h4>
+                        <p>Karan Aujla, Ikky</p>
+                    </div>
+                </div>
+
+                <div class="play-bar">
+                    <div class="seek-bar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="song-info"></div>
+                    <div class="song-btns  flex justify-center">
+                        <img src="img/previous-btn.svg" alt="">
+                        <img id="play" src="img/play.svg" alt="">
+                        <img src="img/Next-btn.svg" alt="">
+                    </div>
+                    <div class="song-time"></div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
