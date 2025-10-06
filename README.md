@@ -3,7 +3,7 @@
 
 A front-end web application that replicates the user interface and basic functionality of the Spotify web player. This project is built with pure HTML, CSS, and JavaScript, focusing on DOM manipulation and creating an interactive music playback experience.
 
-[**Live Demo Link**](https://www.google.com/search?q=https://your-username.github.io/your-repository-name/) 
+[**Live Deployed Link**](https://ankitmusic.netlify.app/) 
 
 ✨ Features
 ----------
